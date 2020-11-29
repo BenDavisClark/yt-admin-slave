@@ -6,12 +6,12 @@
 
 ```bash
 $ yarn
-$ cnpm i
+$ npm i
 ```
 
-Start the dev server,
+启动项目
 
 ```bash
 $ yarn start
-$ cnpm run start
+$ npm run start
 ```
