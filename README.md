@@ -10,7 +10,7 @@
 
 ## 一、创建项目
 
-把这个项目复制一遍，项目名字改成 slave-xxx
+把这个项目复制一遍，项目名字改成 xxx
 
 
 ## 二、注册项目
@@ -73,10 +73,8 @@ export default defineConfig({
 
 ## 父子数据通信
 
-尚未完成
+可以用useModel，或者本地缓存，参考其他项目
 
 ## 如何使用 amiya 组件
 
-amiya 类似与之前的 yt-admin component 下面的东西，目前尚未有文档，现在可以参考主应用的 SystemConfig。
-
-amiya 会持续更新，记得关注。
+文档地址 https://viewweiwu.github.io/amiya/
