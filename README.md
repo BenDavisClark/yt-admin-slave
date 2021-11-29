@@ -1,9 +1,10 @@
-# 子应用创建向导
+# umi project
 
-子应用一般指项目的一个模块。
+## Getting Started
 
-！！！
+安装依赖
 
+<<<<<<< HEAD
 `下面 xxx，都是指子应用的名字。`
 
 ！！！
@@ -23,47 +24,20 @@
 qiankun: {
   slave: {}
 }
+=======
+```bash
+$ yarn
+$ npm i
+>>>>>>> 936b4e6f79ac899a6862f06ea744cd6df4cc9288
 ```
 
-打开子应用的 .env
+启动项目
 
-改一个你喜欢的端口
-
-## 三、挂载项目
-
-打开主应用的 umirc.ts
-
-```javascript
-export default defineConfig({
-  nodeModulesTransform: {
-    type: 'none'
-  },
-  qiankun: {
-    master: {
-      // 注册子应用信息
-      apps: [
-        {
-          name: 'slave', // 这里换成 xxx
-          entry: '//localhost:5000' // 记得换成刚刚设置的端口
-        }
-      ]
-    }
-  },
-  routes: [
-    {
-      path: '/',
-      component: '@/layouts',
-      routes: [
-        // ...
-        {
-          path: '/slave', // 这里换成 xxx
-          microApp: 'slave' // 这里换成 xxx
-        }
-      ]
-    }
-  ]
-})
+```bash
+$ yarn start
+$ npm run start
 ```
+<<<<<<< HEAD
 
 保存完之后记得重启项目。
 
@@ -78,3 +52,5 @@ export default defineConfig({
 ## 如何使用 amiya 组件
 
 文档地址 https://viewweiwu.github.io/amiya/
+=======
+>>>>>>> 936b4e6f79ac899a6862f06ea744cd6df4cc9288
